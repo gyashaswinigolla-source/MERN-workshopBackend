@@ -64,9 +64,8 @@ app.get("/users/:id", (req, res) => {
     return res.json(data)
 })
 
-app.put("/", (req, res) => {});
 
-app.delete("/", (req, res) => {});
+
 
 app.listen(5000, () => {
   mongoose
